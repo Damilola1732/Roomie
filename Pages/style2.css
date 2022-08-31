@@ -1,0 +1,108 @@
+@media screen and (max-width: 600px) {
+    html,body {
+        height: 100%;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .dashboard {
+        flex: 1 0 auto;
+    }
+    
+    .header {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: -10px;
+    
+   }
+   .title {
+    font-size: 30px;
+    color: #2B4E6D;
+   }
+   #profile {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2B4E6D;
+    padding: 10px 20px 0 20px;
+    }
+    .img-container {
+        width: 100px;
+        height: 100px;
+        background: #C4C4C4;
+        border-radius: 50%;
+        margin-left: 40%;
+    
+    }
+ #image {
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+    }
+    .description {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 5px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+    .main {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:350px;
+        height: 330px;
+        background: aliceblue;
+        border: 1px solid rgba(85, 129, 138, 0.5);
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px #2B4E6D;
+        margin: 0 5% 0 5%;
+    }
+    .options li {
+        list-style: none;
+        font-family: 'Montserrat';
+        font-style:normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 3em;
+        letter-spacing: 0.05em;
+        color: #004250;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    /*
+    Footer 
+    */
+    footer .nav {
+        flex-shrink: 0;
+    }
+    footer .btns {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer .btns li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .btns li i {
+        font-size: 25px;
+        color:#CC952B;
+    }
+}
